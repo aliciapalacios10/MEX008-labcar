@@ -1,0 +1,191 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+/*GLOBALES*/
+
+body{
+    margin: 0%;
+    overflow-x: hidden;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+}
+header{
+    background-color: white;
+    position: fixed;
+    z-index: 6;
+    top: 0%;
+    height: 15vh;
+}
+a{
+    text-decoration: none;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    margin: 0% auto;
+}
+
+/*SECTIONS*/
+    /*HERO*/
+.hero{
+    background-image: url(img/taxi.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.section-1{
+    background-color: #f7b617;
+    position: absolute;
+    width: 77%;
+    height: 28vh;
+    right: 0%;
+    top: 50%;
+}
+.info-mobile h1{
+    width: 80%;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding: 1%;
+    margin: 9%;
+}
+.info-mobile img{
+    width: 30%;
+}
+.info-desktop{
+    display: none;
+}
+/*INFORMATION*/
+.information{
+    background-color: #f7b617;
+    height: 85vh;
+}
+.information-line{
+    border: white 2px solid;
+    width: 91%;
+    height: 95vh;
+    margin: 4%;
+    padding: 5%;
+}
+.section-2 img{
+    width: 80%;
+}
+/*MENU HAMBURGUESA*/
+
+.menu{
+    color: #191C26;
+    cursor: pointer;
+    display: flex;
+    order: -1;
+}
+.menu > li{
+    float: left;
+}
+.menu li a{
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+.menu li a:hover {
+    background-color: #f7b617;
+}
+.menu ul {
+    display: none;
+    position:absolute;
+	min-width:30vh;
+}
+.menu li:hover > ul {
+    display:block;
+}
+
+.menu ul li {
+    position:relative;
+}
+
+.menu i {
+    border-color:  rgb(150, 150, 150);
+    border-style: solid;
+    border-width: 0.1rem;
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+    font-size: 2rem;
+    color: rgb(135, 133, 133)
+}
+li{
+    list-style: none;
+}
+.menu-desktop {
+    display: none;
+}
+
+/*RESPONSIVE*/
+@media (min-width:768px) {
+
+    /*MENU DESKTOP*/
+    nav {
+        position: relative;
+    }
+    .menu {
+        display: none;
+    }
+    .menu-desktop{
+        display: block;
+        position: absolute;
+        right: 0;
+        padding: 0.5rem 0;
+        margin: -2rem 0;
+    }
+    .menu-desktop li {
+        display: inline;
+    }
+    .menu-desktop a:hover {
+        color: rgb(248, 212, 8);
+    }
+    .menu-desktop a {
+        display: inline;
+        margin-right: 3rem;
+        color: #191C26;
+    }
+
+    /*HERO*/
+
+    .hero{
+        background-position: center bottom;
+        height: 100vh;
+    }
+    .section-1{
+        height: 45vh;
+        width: 40%;
+        right: 0%;
+        top: 26%;
+    }
+    .info-desktop{
+        display: block;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin: 9%;
+    }
+    .info-desktop h2{
+        margin: 1%;
+    }
+    .info-mobile{
+        display: none;
+    }
+}
+/*MEDIDAS DEL GRID*/
+.col-1{width: 8.333333333333332%;}
+.col-2{width: 16.666666666666664%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33333333333333%;}
+.col-5{width: 41.66666666666667%;}
+.col-6{width: 50%;}
+.col-7{width: 58.333333333333336%;}
+.col-8{width: 66.66666666666666%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33333333333334%;}
+.col-11{width: 91.66666666666666%;}
+.col-12{width: 100%;}
