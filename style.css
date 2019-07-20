@@ -13,6 +13,7 @@ body{
     font-family: 'Rubik', sans-serif;
     color: white;
 }
+
 header{
     background-color: white;
     position: fixed;
@@ -20,9 +21,11 @@ header{
     top: 0%;
     height: 15vh;
 }
+
 a{
     text-decoration: none;
 }
+
 section{
     display: flex;
     flex-direction: column;
@@ -36,6 +39,7 @@ section{
     background-size: cover;
     height: 100vh;
 }
+
 .section-1{
     background-color: #f7b617;
     position: absolute;
@@ -44,6 +48,7 @@ section{
     right: 0%;
     top: 50%;
 }
+
 .info-mobile h1{
     width: 80%;
     font-size: 1.5rem;
