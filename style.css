@@ -94,6 +94,21 @@ section{
 .section-2-desktop{
     display: none;
 }
+/*DRIVER*/
+.driver{
+    background-image: url(img/conduce.jpg);
+    background-size: cover;
+    height: 36vh;
+}
+.content-driver{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 2rem;
+}
 /*MENU HAMBURGUESA*/
 
 .menu{
@@ -219,7 +234,7 @@ li{
         margin-left: 49%;
         top: 114%;
     }
-    
+
     .text{
         font-size: 1.5rem;
         line-height: 2rem;
@@ -233,7 +248,15 @@ li{
     .text-info, .mobile-2{
         display: none;
     }
-
+    /*DRIVER*/
+    .driver{
+        background-position: center;
+    }
+    .content-driver{
+        width: 40%;
+        justify-content: flex-end;
+        margin-left: 58%;
+    }
 }
 /*MEDIDAS DEL GRID*/
 .col-1{width: 8.333333333333332%;}
