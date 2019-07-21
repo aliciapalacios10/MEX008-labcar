@@ -62,20 +62,37 @@ section{
 .info-desktop{
     display: none;
 }
+
 /*INFORMATION*/
+
 .information{
     background-color: #f7b617;
     height: 85vh;
 }
 .information-line{
-    border: white 2px solid;
+    border: white 1px solid;
     width: 91%;
     height: 95vh;
     margin: 4%;
     padding: 5%;
+    padding-top: 13%;
 }
+.mobile-2{
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 2rem;
+} 
 .section-2 img{
     width: 80%;
+    display: block;
+    margin: auto; 
+}
+.text-info{
+    padding-left: 4%;
+    font-size: 1rem;
+}
+.section-2-desktop{
+    display: none;
 }
 /*MENU HAMBURGUESA*/
 
@@ -176,10 +193,46 @@ li{
     }
     .info-desktop h2{
         margin: 1%;
+        font-size: 1.9rem;
     }
     .info-mobile{
         display: none;
     }
+
+    /*INFORMATION*/
+    
+    .information{
+        height: 85vh;
+    }
+    .information-line{
+        width: 165vh;
+        height: 90vh;
+        margin: 0%;
+        padding: 0%;
+        padding-top: 0%;
+        margin: 30px 3px 30px -1px;
+    }
+    .section-2-desktop{
+        display: block;
+        position: absolute;
+        width: 27vw;
+        margin-left: 49%;
+        top: 114%;
+    }
+    .text{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .section-2 img{
+        width: 30%;
+        display: block;
+        margin-left: 10%;
+        margin-top: 7%; 
+    }
+    .text-info, .mobile-2{
+        display: none;
+    }
+
 }
 /*MEDIDAS DEL GRID*/
 .col-1{width: 8.333333333333332%;}
