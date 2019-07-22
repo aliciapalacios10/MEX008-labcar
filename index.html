@@ -22,24 +22,24 @@
                 <li>
                     <i class="far fa-bars"></i>
                     <ul>
-                        <li><a href="#">Viaja</a></li>
-                        <li><a href="#">Conduce</a></li>
-                        <li><a href="#">Inicia Sesión</a></li>
+                        <li><a href="new-account" id="new-trip-mobile">Viaja</a></li>
+                        <li><a href="become-driver" id="drive-btn-mobile">Conduce</a></li>
+                        <li><a href="account" id="login-btn-mobile">Inicia Sesión</a></li>
                     </ul>
                 </li>
             </ul>
             <!--DESKTOP-->
             <ul class="menu-desktop">
-                <li><a href="#">Viaja</a></li>
-                <li><a href="#">Conduce</a></li>
-                <li><a href="#">Inicia Sesión</a></li>
+                <li><a href="new-account" id="new-trip-desktop">Viaja</a></li>
+                <li><a href="become-driver" id="drive-btn-desktop">Conduce</a></li>
+                <li><a href="account" id="login-btn-desktop">Inicia Sesión</a></li>
             </ul>
         </nav>
     </header>
     <!--MAIN-->
     <main>
         <!--HERO-->
-        <section class="hero col-12">
+        <section id="hero" class="hero col-12">
             <div class="section-1">
                 <!--MOBILE-->
                 <div class="info-mobile">
@@ -52,11 +52,11 @@
                     <h2>Eres dueño de tu tiempo</h2>
                     <h4>Viaja con <img src="img/logo-blanco.png" alt="logotipo blanco"></h4>
                 </div>
-                <a href="#" class="btn-register">REGÍSTRATE</a>
+                <a href="new-account" class="btn-register">REGÍSTRATE</a>
                 <br>
                 <P class="text-section-1">O bien</P>
                 <br>
-                <a href="#" class="btn-driver-1">Conviértete en un conductor</a>
+                <a href="#become-driver" id="driver-button" class="btn-driver-1">Conviértete en un conductor</a>
             </div>
         </section>
         <!--INFORMATION-->
@@ -120,6 +120,11 @@
         <!--MODAL INICIAR SESIÓN-->
         <section id="new-account" class="hide col-12">
             <div class="content-account">
+                <div>
+                    <div class="close-modals">
+                        <a class="close" id="close-new-user" href="#">X</a>
+                    </div>
+                </div>
                 <img src="img/usuario.svg" alt="">
                 <hr>
                 <div class="user">
@@ -139,8 +144,11 @@
             </div>
         </section>
         <!--MODAL DE REGÍSTRATE-->
-        <section id="check-in">
+        <section class="new-account hide" id="check-in">
             <div class="content-check-in">
+                    <div class="close-modals">
+                            <a class="close" id="close-check-in" href="#">X</a>
+                        </div>
                 <a href="#" class="btn-check-in">¿Ya tienes una cuenta?</a>
                 <p>O CREA UNA NUEVA CUENTA</p>
                 <form>
@@ -161,8 +169,11 @@
             </div>
         </section>
         <!--MODAL DE CONVIERTE EN CONDUCTOR-->
-        <section class="become-driver">
+        <section id="become-driver" class="become-driver hide">
             <div class="content-become-driver">
+                    <div class="close-modals">
+                            <a class="close" id="close-become-drive" href="#">X</a>
+                        </div>
                 <form>
                     <label class="account-5" for="">¿Tienes vehículo de 4 puertas?</label>
                     <input type="text">
@@ -235,6 +246,7 @@
             </div>
         </div>
     </footer>
+    <script src="main.js"></script>
 </body>
 
 </html>
