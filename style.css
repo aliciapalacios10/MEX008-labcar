@@ -472,6 +472,12 @@ li{
     display: none;
 }
 
+/* HIDE */
+.hide {
+    display: none;
+}
+
+
 /*RESPONSIVE*/
 @media (min-width:768px) {
 
@@ -695,12 +701,12 @@ li{
     font-size: small;
     position: absolute;
 }
-.password p{
+/*.password p{
     text-align: center;
     justify-content: center;
     color: red;
     display: flex;
-}
+}*/
 
 /*MODAL DE REGISTRATE*/
 #check-in{
@@ -757,6 +763,40 @@ li{
     width: 34%;
 }
 
+/*MODAL DE CONVIERTE EN CONDUCTOR*/
+.become-driver{
+    height: 80vh;
+}
+.content-become-driver{
+    width: 50%;
+    height: 73vh;
+    margin: 1rem auto;
+    border-radius: 0.8rem; 
+    padding-top: 5%;
+}
+.content-become-driver label{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.content-become-driver input{
+    display: block;
+    padding: 0.5rem;
+    margin-top: 4%;
+    font-size: small;
+    margin-left: 1rem;
+    height: 1.9rem;
+    width: 46vw;
+    padding-left: 1rem;
+}
+.content-become-driver p{
+    font-size: 0.9rem;
+    margin-left: 6%;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.btn-submit{
+
+}
 
 /*FOOTER*/
     .content-footer{
