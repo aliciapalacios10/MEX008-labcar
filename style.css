@@ -187,6 +187,71 @@ section{
     margin-left: 0%;
     margin-top: 25%;
 }
+
+ /*MODALES*/
+        /*MODAL INICIAR SESIÓN*/
+#new-account{
+    background-color: antiquewhite;
+    height: 85vh;
+}
+.content-account{
+    background-color: #00b29d;
+    width: 90%;
+    height: 75%;
+    margin: 2rem auto;
+    border-radius: 0.8rem;    
+}
+
+.content-account img{
+    width: 26%;
+    margin-left: 35%;
+    margin-top: 7%;
+}
+.content-account label{
+    margin: 1.5rem 0;
+}
+.content-account input{
+    margin-left: 1rem;
+    height: 2rem;
+    width: 60vw;
+    border-color: white;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-radius: 0.6rem;
+    padding-left: 1rem;
+}
+.user{
+    background-color: #f5f5f5;
+    width: 80%;
+    display: inline-flex;
+    margin-left: 8%;
+    height: 33vh;
+}
+.account-1 img{
+    width: 9%;
+    margin-left: 0%;
+    position: inherit;
+}
+.account-2 img{
+    width: 9%;
+    margin-left: 0%;
+    position: inherit;
+}
+.btn-loging{
+    background-color: #f7b617;
+    color: white;
+    display: flex;
+    position: absolute;
+    padding: 0.8rem;
+    border-radius: 6px;
+    margin-left: 22%;
+    margin-top: 52%;
+    font-size: small;
+}
+.user p{
+    text-align: center;
+    justify-content: center;
+}
 /*FOOTER*/
 footer{
     display: flex;
@@ -460,6 +525,63 @@ li{
         width: 74vh;
         height: 69vh;
     }
+
+    /*MODALES*/
+            /*MODAL INICIAR SESIÓN*/
+#new-account{
+    height: 80vh;
+}
+.content-account{
+    width: 50%;
+    height: 85%;
+    margin: 2rem auto;  
+}
+
+.content-account img{
+    width: 15%;
+    margin-left: 42%;
+    margin-top: 5%;
+}
+.content-account label{
+    margin: 1.5rem 0;
+}
+.content-account input{
+    margin-left: 1rem;
+    height: 2rem;
+    width: 33vw;
+}
+.user{
+    width: 80%;
+    margin-left: 8%;
+    height: 35vh;
+}
+.account-1 img{
+    width: 7%;
+    margin-left: 1%;
+    position: inherit;
+}
+.account-2 img{
+    width: 7%;
+    margin-left: 1%;
+    position: inherit;
+}
+.btn-loging{
+    background-color: #f7b617;
+    color: white;
+    display: flex;
+    padding: 0.8rem;
+    border-radius: 6px;
+    margin-left: 18%;
+    margin-top: 15%;
+    font-size: small;
+    position: absolute;
+}
+.password p{
+    text-align: center;
+    justify-content: center;
+    color: red;
+    display: flex;
+}
     /*FOOTER*/
     .content-footer{
         width: 90vw;
