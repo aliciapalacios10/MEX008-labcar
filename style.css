@@ -218,11 +218,9 @@ footer{
     width: 80%;
     margin:0 4px;
 }
-
 .list-mobile ul{
     padding-inline-start: 15px;
     line-height: 1.7rem;
-
 }
 .list-desktop{
     display: none;
@@ -239,7 +237,7 @@ footer{
     margin-top: 25%;
     margin-left: 3%;
 }
-}
+
 /*MENU HAMBURGUESA*/
 
 .menu{
@@ -461,6 +459,61 @@ li{
     .map iframe{
         width: 74vh;
         height: 69vh;
+    }
+    /*FOOTER*/
+    .content-footer{
+        width: 90vw;
+        height: 85vh;
+        padding: 5%;
+        margin: 2%;
+    }
+    .head-footer img{
+        width: 10%;
+    }
+    .social-media{
+        justify-content: flex-end;
+    }
+    .social-media img{
+        width: 40%;
+    }
+    .footer-list{
+        display: flex;
+        justify-content: center;
+    }
+    .list-mobile{
+        display: flex;
+        float: left;
+    }
+    .list-mobile ul{
+        padding-inline-start: 1px;
+        line-height: 1.5rem;
+        font-size: 1rem;
+    }
+    .list-desktop{
+        display: flex;
+        justify-content: end;
+    }
+    .list-desktop ul{
+        line-height: 1.5rem;
+        font-size: 1rem;
+    }
+    .store{
+        display: block;
+        justify-content: baseline;
+        margin: -31%;
+        margin-right: -23rem;
+    }
+    .store img{
+        width: 10%;
+        margin-right: 0%;
+        position: relative;
+        padding: 1%;
+    }
+    .footer-end{
+        display: flex;
+        margin-top: 46%;
+        margin-left: -1%;
+        justify-content: start;
     }
 }
 /*MEDIDAS DEL GRID*/
