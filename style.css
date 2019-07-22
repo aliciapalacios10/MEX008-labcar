@@ -320,10 +320,56 @@ section{
     padding: 0.8rem;
     border-radius: 6px;
     margin-left: 3%;
-    margin-top: 3%;
+    margin-top: -2%;
     font-size: small;
     width: 36vh;
     padding-left: 31%;
+}
+
+/*MODAL DE CONVIERTE EN CONDUCTOR*/
+.become-driver{
+    background-color: antiquewhite;
+    height: 75vh;
+}
+.content-become-driver{
+    background-color: #a8a8a8;
+    width: 84%;
+    height: 60vh;
+    margin: 2rem auto;
+    border-radius: 0.8rem; 
+    padding-top: 5%;
+}
+.content-become-driver label{
+    color: black;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.content-become-driver input{
+    background-color: white;
+    color: black;
+    display: inline-table;
+    padding: 0.5rem;
+    border-radius: 6px;
+    margin-left: 35%;
+    margin-top: 4%;
+    font-size: small;
+    margin-left: 2rem;
+    height: 1.9rem;
+    width: 60vw;
+    border-color: white;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-radius: 0.6rem;
+    padding-left: 1rem;
+}
+.content-become-driver p{
+    font-size: 0.9rem;
+    margin-left: 6%;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.btn-submit{
+
 }
 /*FOOTER*/
 footer{
@@ -710,6 +756,7 @@ li{
     padding-left: 1%;
     width: 34%;
 }
+
 
 /*FOOTER*/
     .content-footer{
