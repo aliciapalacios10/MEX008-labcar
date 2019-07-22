@@ -24,6 +24,9 @@ header{
 
 a{
     text-decoration: none;
+    background-color: white;
+    text-align: center;
+    color: black;
 }
 
 section{
@@ -50,8 +53,8 @@ section{
 }
 
 .info-mobile h1{
-    width: 80%;
-    font-size: 1.5rem;
+    /*width: 80%;*/
+    /*font-size: 1.5rem;*/
     line-height: 2rem;
     padding: 1%;
     margin: 9%;
@@ -59,7 +62,12 @@ section{
 .info-mobile img{
     width: 30%;
 }
-.info-desktop{
+.btn-download{
+    padding: 0.8rem;
+    border-radius: 10px;
+    margin: 10%;
+}
+.info-desktop, .btn-register, .btn-driver-1, .text-section-1{
     display: none;
 }
 
@@ -94,7 +102,9 @@ section{
 .section-2-desktop{
     display: none;
 }
+
 /*DRIVER*/
+
 .driver{
     background-image: url(img/conduce.jpg);
     background-size: cover;
@@ -103,11 +113,78 @@ section{
 .content-driver{
     width: 100%;
     height: 100%;
-    display: flex;
+    /*display: flex;*/
     align-items: center;
     justify-content: flex-end;
     background-color: rgba(0, 0, 0, 0.6);
-    padding: 2rem;
+    padding: 1rem;
+}
+.content-driver h2{
+    font-size: 1rem;
+}
+.btn-driver-2{
+    background-color: #f7b617;
+    color: white;
+    display: inline-table;
+    position: absolute;
+    padding: 0.8rem;
+    border-radius: 10px;
+    margin-left: -1%;
+    margin-top: 1%;
+    font-size: small;
+}
+/*RATE*/
+.rate{
+    background-color: #f7b617;
+    height: 85vh;
+}
+.content-rate{
+    padding: 3rem;
+    display: flex;
+}
+.rate-rute label {
+    margin: 2rem 0;
+    display: block;
+}
+
+.rate-rute input {
+    margin-left: 1rem;
+    height: 3rem;
+    width: 60vw;
+    color: white;
+    background-color: #F7B617;
+    border-color:  white;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-radius: 0.8rem;
+    padding-left: 1rem;
+}
+
+/*FOOTER*/
+footer{
+    display: flex;
+    background-color: #2b2b2b;
+}
+.content-footer{
+    width: 80vw;
+    height: 85vh;
+}
+.head-footer img{
+    width: 50%;
+}
+.list-mobile ul{
+    padding-inline-start: 10px;
+    line-height: 2.5rem;
+}
+.list-desktop{
+    display: none;
+}
+.store{
+    top: 50%;
+}
+.store img{
+    width: 70%;
+    margin-left: 80%;
 }
 /*MENU HAMBURGUESA*/
 
@@ -195,22 +272,38 @@ li{
         height: 100vh;
     }
     .section-1{
-        height: 45vh;
+        height: 50vh;
         width: 40%;
         right: 0%;
-        top: 26%;
+        top: 24%;
     }
     .info-desktop{
         display: block;
         font-size: 1.5rem;
         line-height: 2rem;
-        margin: 9%;
+        margin: 3%;
+    }
+    .info-desktop h4{
+        margin-left: 2%;
     }
     .info-desktop h2{
         margin: 1%;
         font-size: 1.9rem;
     }
-    .info-mobile{
+    .info-desktop img{
+        width: 25%;
+    }
+    .text-section-1{
+        text-align: center;
+    }
+    .btn-register, .btn-driver-1{
+        display: inline;
+        padding: 0.8rem;
+        border-radius: 10px;
+        margin: 5%;
+
+    }
+    .info-mobile, .btn-download{
         display: none;
     }
 
@@ -230,9 +323,9 @@ li{
     .section-2-desktop{
         display: block;
         position: absolute;
-        width: 27vw;
-        margin-left: 49%;
-        top: 114%;
+        width: 31%;
+        margin-left: 51%;
+        top: 111%;
     }
 
     .text{
@@ -248,14 +341,31 @@ li{
     .text-info, .mobile-2{
         display: none;
     }
+
     /*DRIVER*/
+
     .driver{
         background-position: center;
+        height: 70vh;
     }
     .content-driver{
-        width: 40%;
+        width: 42%;
         justify-content: flex-end;
         margin-left: 58%;
+    }
+    .content-driver h2{
+        font-size: 2rem;
+    }
+    .content-driver p{
+        font-size: 1.5rem;
+    }
+    .btn-driver-2{
+        position: absolute;
+        padding: 1rem;
+        border-radius: 10px;
+        margin-left: 1%;
+        margin-top: 4%;
+        font-size: medium;
     }
 }
 /*MEDIDAS DEL GRID*/
