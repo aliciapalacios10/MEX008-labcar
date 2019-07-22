@@ -192,7 +192,7 @@ section{
         /*MODAL INICIAR SESIÓN*/
 #new-account{
     background-color: antiquewhite;
-    height: 85vh;
+    height: 75vh;
 }
 .content-account{
     background-color: #00b29d;
@@ -211,6 +211,14 @@ section{
     margin: 1.5rem 0;
 }
 .content-account input{
+    background-color: white;
+    color: white;
+    display: inline-table;
+    padding: 0.8rem;
+    border-radius: 6px;
+    margin-left: 35%;
+    margin-top: 4%;
+    font-size: small;
     margin-left: 1rem;
     height: 2rem;
     width: 60vw;
@@ -229,12 +237,12 @@ section{
 }
 .account-1 img{
     width: 9%;
-    margin-left: 0%;
+    margin-left: 3%;
     position: inherit;
 }
 .account-2 img{
     width: 9%;
-    margin-left: 0%;
+    margin-left: 3%;
     position: inherit;
 }
 .btn-loging{
@@ -251,6 +259,71 @@ section{
 .user p{
     text-align: center;
     justify-content: center;
+}
+
+/*MODAL DE REGISTRARTE*/
+
+#check-in{
+    background-color: antiquewhite;
+    height: 75vh;
+}
+.content-check-in{
+    background-color: #a8a8a8;
+    width: 84%;
+    height: 60vh;
+    margin: 2rem auto;
+    border-radius: 0.8rem; 
+}
+.btn-check-in{
+    background-color: black;
+    color: white;
+    display: flex;
+    position: absolute;
+    padding: 0.8rem;
+    border-radius: 6px;
+    margin-left: 8%;
+    margin-top: 4%;
+    font-size: small;
+    width: 32vh;
+    padding-left: 13%;
+}
+.content-check-in p{
+    margin-top: 25%;
+    font-size: 0.8rem;
+    margin-left: 17%;
+}
+.account-3 input{
+    margin-left: 3%;
+    display: inline-block;
+    width: 17vh;
+    border-radius: 6px;
+    height: 4vh;
+}
+.account-4 input{
+    width: 36vh;
+    margin-left: 3%;
+    margin-top: 3%;
+    border-radius: 6px;
+    height: 4vh;
+}
+.account-3 ::placeholder{
+    padding-left: 5%;
+}
+.account-4 ::placeholder{
+    padding-left: 5%;
+}
+.btn-submit{
+    background-color: #4ebddf;
+    color: white;
+    display: flex;
+    position: absolute;
+    padding: 0.8rem;
+    border-radius: 6px;
+    margin-left: 3%;
+    margin-top: 3%;
+    font-size: small;
+    width: 36vh;
+    padding-left: 31%;
 }
 /*FOOTER*/
 footer{
@@ -526,14 +599,14 @@ li{
         height: 69vh;
     }
 
-    /*MODALES*/
-            /*MODAL INICIAR SESIÓN*/
+/*MODALES*/
+    /*MODAL INICIAR SESIÓN*/
 #new-account{
     height: 80vh;
 }
 .content-account{
     width: 50%;
-    height: 85%;
+    height: 60vh;
     margin: 2rem auto;  
 }
 
@@ -582,7 +655,63 @@ li{
     color: red;
     display: flex;
 }
-    /*FOOTER*/
+
+/*MODAL DE REGISTRATE*/
+#check-in{
+    height: 80vh;
+}
+.content-check-in{
+    width: 50%;
+    height: 73vh;
+    margin: 1rem auto;
+}
+.btn-check-in{
+    margin-top: 2%;
+    font-size: medium;
+    width: 90%;
+    padding-left: 8%;
+    display: block;
+    position: inherit;
+    margin-left: 5%;
+    position: inherit;
+}
+.content-check-in p{
+    margin-top: 2%;
+    font-size: 1.2rem;
+    margin-left: 29%;
+}
+.account-3 input{
+    margin-left: 3%;
+    display: inline-block;
+    width: 44vh;
+    height: 4vh;
+}
+.account-4 input{
+    display: block;
+    /* width: 92vh; */
+    margin-left: 3%;
+    margin-top: 3%;
+    height: 4vh;
+    width: 94%;
+}
+.account-3 ::placeholder{
+    padding-left: 5%;
+}
+.account-4 ::placeholder{
+    padding-left: 3%;
+}
+.btn-submit{
+    display: block;
+    position: absolute;
+    padding: 0.8rem;
+    margin-left: 7%;
+    margin-top: 1%;
+    font-size: medium;
+    padding-left: 1%;
+    width: 34%;
+}
+
+/*FOOTER*/
     .content-footer{
         width: 90vw;
         height: 85vh;
