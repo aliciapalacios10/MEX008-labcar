@@ -64,7 +64,7 @@ section{
 }
 .btn-download{
     padding: 0.8rem;
-    border-radius: 10px;
+    border-radius: 6px;
     margin: 10%;
 }
 .info-desktop, .btn-register, .btn-driver-1, .text-section-1{
@@ -128,7 +128,7 @@ section{
     display: inline-table;
     position: absolute;
     padding: 0.8rem;
-    border-radius: 10px;
+    border-radius: 6px;
     margin-left: -1%;
     margin-top: 1%;
     font-size: small;
@@ -136,15 +136,33 @@ section{
 /*RATE*/
 .rate{
     background-color: #f7b617;
-    height: 85vh;
+    height: 100vh;
 }
 .content-rate{
-    padding: 3rem;
-    display: flex;
+    padding: 2rem;
 }
-.rate-rute label {
-    margin: 2rem 0;
+.rute input{
+    margin-left: 1rem;
+    height: 2rem;
+    width: 60vw;
+    background-color: #F7B617;
+    border-color: white;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-radius: 0.6rem;
+    padding-left: 1rem;
+}
+.rute label{
+    margin: 1.5rem 0;
     display: block;
+}
+.rute ::placeholder{
+    color: white;
+}
+.btn-rute{
+    padding: 0.5rem;
+    border-radius: 6px;
+    margin: 22%;
 }
 
 .rate-rute input {
@@ -156,10 +174,19 @@ section{
     border-color:  white;
     border-style: solid;
     border-width: 0.1rem;
-    border-radius: 0.8rem;
+    border-radius: 0.6rem;
     padding-left: 1rem;
 }
-
+/*.map-line{
+    border: white 1px solid;
+    width: 105%;
+    height: 48vh;
+    margin: -1%;
+}*/
+.map{
+    margin-left: 0%;
+    margin-top: 25%;
+}
 /*FOOTER*/
 footer{
     display: flex;
@@ -299,7 +326,7 @@ li{
     .btn-register, .btn-driver-1{
         display: inline;
         padding: 0.8rem;
-        border-radius: 10px;
+        border-radius: 6px;
         margin: 5%;
 
     }
@@ -362,10 +389,51 @@ li{
     .btn-driver-2{
         position: absolute;
         padding: 1rem;
-        border-radius: 10px;
+        border-radius: 6px;
         margin-left: 1%;
         margin-top: 4%;
         font-size: medium;
+    }
+    /*RATE*/
+    .rate{
+        height: 80vh;
+    }
+    .content-rate{
+        padding: 2rem;
+        margin-top: 3%;
+    }
+    .rute{
+        padding-left: 3%;
+    }
+    .rute input{
+        margin-left: 1rem;
+        height: 3rem;
+        width: 30vw;
+    }
+    .rute label{
+        margin: 1.5rem 0;
+        display: block;
+    }
+    .rute h2{
+        font-size: 1.5rem;
+    }
+    .rute p{
+        font-size: 1.3rem;
+    }
+    .rute ::placeholder{
+        color: white;
+        font-size: 1rem;
+    }
+    .btn-rute{
+        margin: 15%;
+    }
+    .map{
+        margin-left: 48%;
+        margin-top: -31%;
+    }
+    .map iframe{
+        width: 74vh;
+        height: 69vh;
     }
 }
 /*MEDIDAS DEL GRID*/
